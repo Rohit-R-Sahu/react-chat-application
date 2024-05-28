@@ -45,7 +45,7 @@ const Signin = () => {
             </div>
             <div>
               <button className="w-full px-4 py-2 text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150">
-                <Link to="/">Sign in</Link>
+                <Link to="/home">Sign in</Link>
               </button>
             </div>
           </form>

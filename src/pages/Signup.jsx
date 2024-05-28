@@ -24,7 +24,7 @@ const Signup = () => {
               <p className="">
                 Already have an account? &nbsp;
                 <Link
-                  to="/signin"
+                  to="/"
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
                   Sign In
@@ -95,7 +95,7 @@ const Signup = () => {
                 type="submit"
                 className="w-full px-4 py-2 text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150"
               >
-                <Link to="/signin">Create account</Link>
+                <Link to="/">Create account</Link>
               </button>
             </form>
           </div>

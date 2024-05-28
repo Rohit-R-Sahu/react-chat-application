@@ -7,9 +7,9 @@ import Signin from "../pages/Signin";
 const Routers = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/signup" element={<Signup />} />
-      <Route path="/signin" element={<Signin />} />
+      <Route path="/" element={<Signin />} />
     </Routes>
   );
 };
